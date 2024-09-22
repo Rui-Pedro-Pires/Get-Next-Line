@@ -35,7 +35,7 @@ If the mandatory part works perfectly, I added the following bonuses:
 ## Installation
 1. Clone my repository:
    ```bash
-   git clone https://github.com/your-username/get_next_line.git
+   git clone git@github.com:Rui-Pedro-Pires/42Get_Next_Line.git
    ```
 2. Navigate to the project directory:
    ```bash
