@@ -38,11 +38,11 @@ I also added the following bonuses:
 ## Installation
 1. Clone my repository:
    ```bash
-   git clone git@github.com:Rui-Pedro-Pires/42Get_Next_Line.git
+   git clone git@github.com:Rui-Pedro-Pires/Get-Next-Line.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd get_next_line
+   cd Get Next Line
    ```
 3. Compile the project using the provided `Makefile`:
    ```bash
