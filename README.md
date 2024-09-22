@@ -16,13 +16,16 @@ I learned how to work with static variables in C, which made it possible to reta
 2. When reading from standard input, it behaves like a prompt, returning each line of input.
 
 ```c
-int fd = open("file.txt", O_RDONLY);
+int fd;
 char *line;
 
-while ((line = get_next_line(fd)) != NULL)
+fd = open("file.txt", O_RDONLY);
+line = get_next_line(fd);
+while (line != NULL)
 {
     printf("%s", line);
     free(line);
+    line = get_next_line(fd);
 }
 close(fd);
 ```
