@@ -31,7 +31,7 @@ close(fd);
 ```
 
 ## Bonus Features
-If the mandatory part works perfectly, I added the following bonuses:
+I also added the following bonuses:
 - Manage multiple file descriptors simultaneously, allowing the function to handle multiple files without losing the reading thread for each.
 - The function uses only one static variable.
 
