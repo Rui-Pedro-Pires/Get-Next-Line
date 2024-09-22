@@ -56,6 +56,3 @@ I also added the following bonuses:
 ## External Functions
 The project uses the following external functions:
 - `read`, `malloc`, `free`, and custom helper functions.
-
-## License
-This project is licensed under the MIT License.
